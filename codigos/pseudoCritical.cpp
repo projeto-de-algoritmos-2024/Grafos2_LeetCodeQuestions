@@ -82,7 +82,6 @@ private:
         ConjuntoDisjunto conjunto(n);
         int pesoTotal = 0;
 
-        // Força a inclusão de uma aresta específica na MST, se necessário.
         if (forcarAresta != -1) {
             pesoTotal += edges[forcarAresta][2];
             conjunto.unirConjuntos(edges[forcarAresta][0], edges[forcarAresta][1]);
@@ -159,7 +158,7 @@ void runTests() {
     cout << endl;
 }
 
-int main() {
-    runTests();
-    return 0;
-}
+// int main() {
+//     runTests();
+//     return 0;
+// }
