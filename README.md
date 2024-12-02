@@ -19,6 +19,7 @@
 | [1928. Minimum-cost-to-reach-destination-in-time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/)  |  ***Difícil*** | [minCostDest.cpp](codigos/minCostDest.cpp) |
 |  [1489. Find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/description/) |  ***Difícil*** | [pseudoCritical.cpp](codigos/pseudoCritical.cpp)|
 | [1568. Minimum Number of Days to Disconnect Island](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/description/) | ***Difícil*** | [disconnectIsland.cpp](codigos/disconnectIsland.cpp)| 
+| [1584. Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/) | ***Médio*** | [minCostConnect.cpp](codigos/minCostConnect.cpp)| 
 
 ## Screenshots
 ### minCostDest.cpp
@@ -49,6 +50,17 @@
 <br>
 
 
+### minCostConnectAll.cpp
+- Rodando o arquivo C++ no terminal na pasta onde ele se encontra, após **descomentar** os testes no final do arquivo:
+    - ![imagem minCostConnect terminal](assets/minCostConnectLocal.png)
+- Rodando o arquivo no ***Leet Code*** com seus testes passando:
+    - ![imagem minCostConnect teste](assets/minCostConnectCases.png)
+- Submissão aceita no ***Leet code***:
+    - ![imagem minCostConnect submissão](assets/minCostConnectSubmission.png)
+<br>
+
+
+
 ## Instalação 
 **Linguagem**: C++<br>
 
@@ -62,6 +74,8 @@
         - Para compilar o executável:```g++ -o pseudoCritical pseudoCritical.cpp```<br>rodar o executável:```./pseudoCritical ```
 
         - Para compilar o executável:```g++ disconnectIsland.cpp -o disconnect```<br>rodar o executável:```./disconnect  ```
+
+        - Para compilar o executável:```g++ minCostConnect.cpp -o minCostConnect```<br>rodar o executável:```./minCostConnect  ```
 
     - Para testar no ***leet code***:
         - Entre nos ***links*** presentes na tabela de questões, copie o código da questão que quer testar, escolha a linguagem C++ e clique em ***run*** ou ***submit*** para testar os códigos ***(lembre de deixar a main de teste comentados para testar no leet code)***.
