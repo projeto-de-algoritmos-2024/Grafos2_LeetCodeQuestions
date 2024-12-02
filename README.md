@@ -18,7 +18,7 @@
 | -- | -- | -- |
 | [1928. Minimum-cost-to-reach-destination-in-time](https://leetcode.com/problems/minimum-cost-to-reach-destination-in-time/)  |  ***Difícil*** | [minCostDest.cpp](codigos/minCostDest.cpp) |
 |  [1489. Find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/description/) |  ***Difícil*** | [pseudoCritical.cpp](codigos/pseudoCritical.cpp)|
-
+| [1568. Minimum Number of Days to Disconnect Island](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/description/) | ***Difícil*** | [disconnectIsland.cpp](codigos/disconnectIsland.cpp)| 
 
 ## Screenshots
 ### minCostDest.cpp
@@ -34,9 +34,18 @@
 - Rodando o arquivo C++ no terminal na pasta onde ele se encontra, após **descomentar** os testes no final do arquivo:
     - ![imagem pseudoCritical terminal](assets/pseudoCriticalLocal.png)
 - Rodando o arquivo no ***Leet Code*** com seus testes passando:
-    - ![imagem minCostDest teste](assets/pseudoCriticalCases.png)
+    - ![imagem pseudoCritical teste](assets/pseudoCriticalCases.png)
 - Submissão aceita no ***Leet code***:
-    - ![imagem minCostDest submissao](assets/pseudoCriticalSubmission.png)
+    - ![imagem pseudoCritical submissão](assets/pseudoCriticalSubmission.png)
+<br>
+
+### disconnectIsland.cpp
+- Rodando o arquivo C++ no terminal na pasta onde ele se encontra, após **descomentar** os testes no final do arquivo:
+    - ![imagem disconnectIsland terminal](assets/disconnectLocal.png)
+- Rodando o arquivo no ***Leet Code*** com seus testes passando:
+    - ![imagem disconnectIsland teste](assets/disconnectCases.png)
+- Submissão aceita no ***Leet code***:
+    - ![imagem disconnectIsland submissão](assets/disconnectSubmission.png)
 <br>
 
 
@@ -50,7 +59,9 @@
     - Após ter a pasta do projeto, rode no terminal de sua máquina dentro da pasta ***Leet_Code_Questions***,  descomente a main dos testes no final dos arquivos .cpp, e execute os seguintes comandos:
         - Para compilar o executável:```g++ -o minCost minCostDest.cpp```<br>Para rodar o executável:```./minCost ```
 
-        - Para compilar o executável:```g++ -o pseudoCritical pseudoCritical.cpp```<br>rodar o executável:```./peseudoCritical ```
+        - Para compilar o executável:```g++ -o pseudoCritical pseudoCritical.cpp```<br>rodar o executável:```./pseudoCritical ```
+
+        - Para compilar o executável:```g++ disconnectIsland.cpp -o disconnect```<br>rodar o executável:```./disconnect  ```
 
     - Para testar no ***leet code***:
         - Entre nos ***links*** presentes na tabela de questões, copie o código da questão que quer testar, escolha a linguagem C++ e clique em ***run*** ou ***submit*** para testar os códigos ***(lembre de deixar a main de teste comentados para testar no leet code)***.
