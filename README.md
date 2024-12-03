@@ -82,10 +82,6 @@
 
 ## Link para o vídeo 
 
-
-<!-- ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo. -->
-
-
+https://www.youtube.com/watch?v=ZnVj1SV_Em4
 
 
